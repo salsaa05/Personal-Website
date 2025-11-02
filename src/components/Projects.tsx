@@ -22,8 +22,7 @@ export default function Projects() {
 					</h4>
 					<p className="text-sm text-zinc-500 dark:text-zinc-300 leading-relaxed">
 						Web Aplikasi Manajemen Kasir ini dirancang untuk membantu proses transaksi penjualan di toko 
-						agar lebih cepat, efisien, dan terorganisir. Aplikasi ini memiliki fitur seperti manajemen produk, 
-						transaksi penjualan, laporan harian, serta pengelolaan pengguna. Sistem dikembangkan menggunakan 
+						agar lebih cepat, efisien, dan terorganisir. Sistem dikembangkan menggunakan 
 						PHP Native, MySQL, dan Bootstrap dengan antarmuka yang responsif serta mudah digunakan oleh kasir maupun admin.
 					</p>
 					<div className="flex items-center gap-x-2.5 mt-2">
@@ -44,7 +43,7 @@ export default function Projects() {
 			<div className="flex flex-col md:flex-row gap-x-6 gap-y-2">
 				<Image
 					alt="image"
-					src="/bukutamu.png" // ganti dengan nama file gambar proyekmu
+					src="/bukutamu.png" 
 					className="w-full md:w-3xs aspect-video rounded-3xl object-cover"
 					width={800}
 					height={500}
@@ -57,8 +56,7 @@ export default function Projects() {
 						Proyek ini merupakan aplikasi berbasis web yang dirancang untuk membantu pengelolaan data 
 						buku tamu di perpustakaan. Sistem ini memungkinkan pengunjung untuk mengisi data kunjungan 
 						secara digital, sehingga mempermudah proses pencatatan dan rekapitulasi data tamu. 
-						Aplikasi ini juga dilengkapi dengan fitur login admin, manajemen data pengunjung, 
-						serta laporan kunjungan harian dan bulanan. Dibangun menggunakan PHP Native, MySQL, 
+						Dibangun menggunakan PHP Native, MySQL, 
 						dan Bootstrap dengan tampilan antarmuka yang responsif dan mudah digunakan..
 					</p>
 					<div className="flex items-center gap-x-2.5 mt-2">
@@ -77,3 +75,4 @@ export default function Projects() {
 		</section>
 	);
 }
+
